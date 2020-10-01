@@ -1,5 +1,5 @@
-class Maus
-  SLACK_TOKEN = 'xoxb-849293206764-FGqsdMF8t18v6N7Oq4i79vs1'.freeze
+class Hound
+  SLACK_TOKEN = 'xoxb-915293206764-FGqsdMF8t18v6N7Oq4i79vs1'.freeze
 
   def self.run
     Slack = Slack::Client.new token: SLACK_TOKEN
