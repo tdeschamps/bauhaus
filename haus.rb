@@ -1,5 +1,5 @@
 class Haus
-  SLACK_ROOM = 'bauhaus42'
+  SLACK_ROOM = 'bauhaus42bauhaus42'
   SLACK_TOKEN = 'xoxb-783293206764-FGqsdMF8t18v6N7Oq4i79vs1'.freeze
 
   def self.run
