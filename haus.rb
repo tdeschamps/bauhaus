@@ -5,6 +5,6 @@ class Haus
   def self.run
     Slack = Slack::Client.new token: SLACK_TOKEN
 
-    Slack.post 'Hello World'
+    Slack.post 'Hello World how are you out there?'
   end
 end
